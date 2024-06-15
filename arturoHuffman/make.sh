@@ -1,0 +1,1 @@
+g++ -o huffmancompression main.cpp
