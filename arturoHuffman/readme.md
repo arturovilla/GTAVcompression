@@ -15,7 +15,7 @@
 - The number of messages in the ensemble is *N* Let *P(i)* be the probability of the *ith* message
 - The length of a message , *L(i)*, is the number of coding digits assigned to it, the average message length is:
 
-   $L_{av} = \sum_{i=1}^{N} P(i) L(i)$
+$L_{av} = \sum\limits_{i=1}^{N} P(i) L(i)$
 
 ## Rules
 1. No two messages will consist of identical arrangements of coding digits
