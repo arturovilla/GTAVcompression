@@ -1,1 +1,1 @@
-clang++ -o huffmancompression main.cpp
+clang++ -w -o hc main.cpp
