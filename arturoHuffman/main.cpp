@@ -69,5 +69,11 @@ int main(){
     calcWeights(frequency, data.size());
     printVec(frequency);
 
+    float total = 0.0;
+    for(auto &i : frequency){
+        total += i.weight;
+    }
+    std::cout<<"total: " + std::to_string(total) <<std::endl;
+
     return 0;
 }
