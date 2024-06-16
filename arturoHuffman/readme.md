@@ -40,4 +40,4 @@ $L_{av} = \sum\limits_{i=1}^{N} P(i) L(i)$
 ## Optimum Binary Code
 
 
-
+- Just read the [wiki](https://en.wikipedia.org/wiki/Huffman_coding), couldnt get the paper as well as the wiki
