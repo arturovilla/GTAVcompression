@@ -1,0 +1,6 @@
+# Huffman coding
+
+- A Huffman code is a particular type of optimal prefix code that is commonly used for lossless data compression. The process of finding or using such a code is **Huffman coding**, an algorithm developed by **David A. Huffman** while he was a Sc.D. student at MIT, and published in the **1952 paper "A Method for the Construction of Minimum-Redundancy Codes"**.
+
+- [1952 paper "A Method for the Construction of Minimum-Redundancy Codes"](https://www.ias.ac.in/article/fulltext/reso/011/02/0091-0099)
+
