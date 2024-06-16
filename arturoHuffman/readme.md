@@ -33,7 +33,7 @@ $L_{av} = \sum\limits_{i=1}^{N} P(i) L(i)$
 - For an optimum code it is required that:
     $L(N) = L(N-1)$
 
-- At least two but no mare thatn $D$ of the messages with code length $L(n)$ have codes which are alike except for their final digits.
+- At least two but no mare thatn $D$ of the messages with code length $L(N)$ have codes which are alike except for their final digits.
 - Each possible sequence of $L(N)-1$ digits must be used either as a messages code or must have one of its prefixes used as a message code
 
 
