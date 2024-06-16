@@ -41,4 +41,4 @@ $L_{av} = \sum\limits_{i=1}^{N} P(i) L(i)$
 
 
 - Just read the [wiki](https://en.wikipedia.org/wiki/Huffman_coding), couldnt get the paper as well as the wiki
-https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Huffman_coding_visualisation.svg/2880px-Huffman_coding_visualisation.svg.png![image](https://github.com/arturovilla/GTAVcompression/assets/60208172/a3bf9afe-7e75-4078-be46-588607addd09)
+[image](https://github.com/arturovilla/GTAVcompression/assets/60208172/a3bf9afe-7e75-4078-be46-588607addd09)
