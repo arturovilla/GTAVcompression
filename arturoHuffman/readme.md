@@ -24,7 +24,8 @@ $L_{av} = \sum\limits_{i=1}^{N} P(i) L(i)$
 ## Requirements 
 - It should be assumed that the messages in the ensemble have been ordered in such a way that:
 
-    $\\P(1) \geqq P(2) \geqq \cdots \geqq P(N-1) \geqq P(N) \\$
+    $P(1) \geqq P(2) \geqq \cdots \geqq P(N-1) \geqq P(N)$
+    
     And
 
     $ L(1)  \leq L(2)  \leq \cdots \leq  L(N-1) \leq L(N)$
