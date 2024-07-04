@@ -3,10 +3,11 @@
 #include <cstring>
 #include <iostream>
 #include <fstream>
+#include <memory>
 #include <ostream>
 #include <string>
 #include <vector>
-#include <unistd.h>
+#include <algorithm>
 // have to make myown tuple struct bc the std lib doesnt have the right 
 // tuple types
 struct Node{
@@ -18,9 +19,8 @@ struct Node{
     bool Visited = false;
 };
 
-
 struct Tree{
-    Node* root = nullptr;
+    std::unique_ptr<Node> root;
 };
 
 void printVec(std::vector<Node> input){
@@ -87,10 +87,36 @@ int main(int argc, char* argv[]){
     std::cout<<"total: " + std::to_string(total) <<std::endl;
 
     // Build the Minimal Weight Binary Tree
+    Tree ensemble;
+    Node leaf;
+    for(auto &i: data){
+        for(auto &node: frequency){
+            if(!ensemble.root){
+                ensemble.root = std::unique_ptr<Node>();
+                ensemble.root->letter = i;
+                ensemble.root->count = node.count;
+                ensemble.root->weight = node.weight;
+            } else {
+                // if the count is greater that the current root
+                if(node.count > ensemble.root->count){
+                    // std::unique_ptr<Node> temp = std::move(ensemble.root);
+                    // ensemble.root = std::make_unique<Node>(node);
+                    // ensemble.root->Zero = std::move(temp);
+                    
 
-    // Tree ensemble;
-    // Node leaf;
-    // for(auto &i: data){
+                }
+                // if the count is less than the current root
+                if(node.count < ensemble.root->count){
+
+                }
+                // if the count is equal than the current root
+                if(node.count == ensemble.root->count){
+
+                }
+            }
+        }
+    }
+
         
 
     // }
